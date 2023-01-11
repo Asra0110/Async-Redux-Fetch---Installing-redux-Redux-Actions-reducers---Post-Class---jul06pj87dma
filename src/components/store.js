@@ -3,7 +3,7 @@ import { configureStore, createSlice } from "@reduxjs/toolkit";
 const slice = createSlice({
   name: "hot-news",
   initialState: {
-    articlesNum: "",
+    articlesNum: 0,
     articles: [],
   },
   reducers: {
